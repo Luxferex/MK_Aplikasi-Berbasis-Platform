@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:latihan/tutorial_11-2.dart';
 import 'main.dart';
 
 void main() {
@@ -60,12 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
               ),
             ),
-            Center(
-              child: Text(
-                'Email Page',
-                style: TextStyle(fontSize: 30),
-              ),
-            ),
+            MyApp11_2(),
             Center(
               child: Text(
                 'Profile Page',
