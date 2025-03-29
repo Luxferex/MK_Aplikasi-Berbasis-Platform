@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Mahasiswa</title>
+  </head>
+  <body>
+    <h1>Data Mahasiswa</h1>
+
+    <form>
+      <table cellpadding="5">
+        <tr>
+          <td align="left" valign="top" width="220">NIM :</td>
+          <td align="left" valign="top">
+            <input type="text" id="nim" name="nim" size="20" />
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left" valign="top">Nama :</td>
+          <td align="left" valign="top">
+            <input type="text" id="nama" name="nama" size="40" />
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left" valign="top">Tgl Lahir (dd-mm-yyyy) :</td>
+          <td align="left" valign="top">
+            <input type="date" id="tgl-lahir" name="tgl-lahir" />
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left" valign="top">Jenis Kelamin :</td>
+          <td align="left" valign="top">
+            <input type="radio" id="laki-laki" name="jenis-kelamin" value="laki-laki" />
+            <label for="laki-laki">Laki-Laki</label>
+            <input type="radio" id="perempuan" name="jenis-kelamin" value="perempuan" />
+            <label for="perempuan">Perempuan</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left" valign="top">Alamat di Bandung :</td>
+          <td align="left" valign="top">
+            <textarea id="alamat" name="alamat" rows="5" cols="40"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left" valign="top">Tinggal di :</td>
+          <td align="left" valign="top">
+            <select id="tinggal" name="tinggal">
+              <option value="">--pilih--</option>
+              <option value="kos">Kos/kontrakan</option>
+              <option value="rumah-saudara">Rumah saudara</option>
+              <option value="rumah-orang-tua">Rumah orang tua</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left" valign="top">Pilih 2 hobi yang paling disukai :</td>
+          <td align="left" valign="top">
+            <input type="checkbox" id="science" name="hobi" value="science" />
+            <label for="science">Science</label><br />
+            <input type="checkbox" id="technology" name="hobi" value="technology" />
+            <label for="technology">Technology</label><br />
+            <input type="checkbox" id="art" name="hobi" value="art" />
+            <label for="art">Art</label><br />
+            <input type="checkbox" id="sport" name="hobi" value="sport" />
+            <label for="sport">Sport</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td align="left" valign="top">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

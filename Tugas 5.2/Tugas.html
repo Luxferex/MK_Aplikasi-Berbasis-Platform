@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Mahasiswa</title>
+  </head>
+  <body>
+    <h1>Data Mahasiswa</h1>
+
+    <form>
+      <div>
+        <label for="nim">NIM :</label>
+        <input type="text" id="nim" name="nim" />
+      </div>
+      <br />
+
+      <div>
+        <label for="nama">Nama :</label>
+        <input type="text" id="nama" name="nama" />
+      </div>
+      <br />
+
+      <div>
+        <label for="tgl-lahir">Tgl Lahir (dd-mm-yyyy) :</label>
+        <input type="date" id="tgl-lahir" name="tgl-lahir" />
+      </div>
+      <br />
+
+      <div>
+        <label>Jenis Kelamin :</label>
+        <input type="radio" id="laki-laki" name="jenis-kelamin" value="laki-laki" />
+        <label for="laki-laki">Laki-Laki</label>
+        <input type="radio" id="perempuan" name="jenis-kelamin" value="perempuan" />
+        <label for="perempuan">Perempuan</label>
+      </div>
+      <br />
+
+      <div>
+        <label for="alamat">Alamat di Bandung :</label>
+        <textarea id="alamat" name="alamat" rows="4" cols="30"></textarea>
+      </div>
+      <br />
+
+      <div>
+        <label for="tinggal">Tinggal di :</label>
+        <select id="tinggal" name="tinggal">
+          <option value="">--pilih--</option>
+          <option value="kos">Kos/kontrakan</option>
+          <option value="rumah-saudara">Rumah saudara</option>
+          <option value="rumah-orang-tua">Rumah orang tua</option>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <label>Pilih 2 hobi yang paling disukai :</label>
+        <br />
+        <input type="checkbox" id="science" name="hobi" value="science" />
+        <label for="science">Science</label>
+        <br />
+        <input type="checkbox" id="technology" name="hobi" value="technology" />
+        <label for="technology">Technology</label>
+        <br />
+        <input type="checkbox" id="art" name="hobi" value="art" />
+        <label for="art">Art</label>
+        <br />
+        <input type="checkbox" id="sport" name="hobi" value="sport" />
+        <label for="sport">Sport</label>
+      </div>
+      <br />
+
+      <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
